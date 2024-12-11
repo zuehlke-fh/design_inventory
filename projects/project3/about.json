@@ -1,0 +1,18 @@
+{
+  "description": {
+    "short": "A secure, scalable chat application featuring end-to-end encryption, group chats, and file sharing capabilities built with modern WebSocket technology."
+  },
+  "stats": {
+    "weight": "3.8 MB",
+    "cost": "Freemium",
+    "found-component": "Socket.io",
+    "microcontroller": "N/A",
+    "keywords": [
+      "Real-time Chat",
+      "WebSocket",
+      "Encryption",
+      "Scalability",
+      "Cross-platform"
+    ]
+  }
+}

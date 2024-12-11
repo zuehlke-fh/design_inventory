@@ -1,0 +1,18 @@
+{
+  "description": {
+    "short": "A high-performance GraphQL API gateway that unifies multiple microservices into a single endpoint, featuring automatic schema stitching and built-in authentication."
+  },
+  "stats": {
+    "weight": "4.7 MB",
+    "cost": "Enterprise",
+    "found-component": "Apollo Server",
+    "microcontroller": "N/A",
+    "keywords": [
+      "GraphQL",
+      "API Gateway",
+      "Microservices",
+      "Performance",
+      "Security"
+    ]
+  }
+}

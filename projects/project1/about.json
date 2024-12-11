@@ -1,0 +1,18 @@
+{
+  "description": {
+    "short": "A modern, lightweight component library that provides a comprehensive collection of reusable Vue.js components built with TypeScript. Features 30+ production-ready components with customizable theming."
+  },
+  "stats": {
+    "weight": "2.3 MB",
+    "cost": "Free",
+    "found-component": "Vue.js Core",
+    "microcontroller": "N/A",
+    "keywords": [
+      "Vue.js",
+      "TypeScript",
+      "Component Library",
+      "UI/UX",
+      "Open Source"
+    ]
+  }
+}
