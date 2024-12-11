@@ -31,8 +31,8 @@ export function useMarkdown(path: Ref<string>) {
       marked.setOptions({
         gfm: true,
         breaks: true,
-        headerIds: true,
-        mangle: false
+        //headerIds: true,
+        //mangle: false
       });
       
       // Extract headings before rendering
@@ -69,7 +69,7 @@ export function useMarkdown(path: Ref<string>) {
       };
       
       // Render the markdown content
-      content.value = marked(text, { renderer });
+      content.value = await marked(text, { renderer });
     } catch (e) {
       error.value = e instanceof Error ? e : new Error('Unknown error');
       content.value = '';

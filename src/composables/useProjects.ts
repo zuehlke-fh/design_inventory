@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import type { Project } from '../types';
+import type { Project } from '../types/project';
 import { projects as projectsData } from '../data/projects';
 
 export function useProjects() {

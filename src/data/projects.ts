@@ -1,4 +1,4 @@
-import type { Project } from '../types';
+import type { Project } from '../types/project';
 
 export const projects: Project[] = [
   {
@@ -26,16 +26,16 @@ export const projects: Project[] = [
         short: "A modern, lightweight component library that provides a comprehensive collection of reusable Vue.js components built with TypeScript. Features 30+ production-ready components with customizable theming."
       },
       stats: {
-        weight: "1.5 kg",
-        cost: "50 EUR",
-        "found-component": "Calculator",
-        microcontroller: "Arduino Uno",
+        weight: "2.3 MB",
+        cost: "Free",
+        "found-component": "Vue.js Core",
+        microcontroller: "N/A",
         keywords: [
-          "Found Treasures",
-          "Upcycling",
-          "Sustainability",
-          "Innovation",
-          "Kinetic"
+          "Vue.js",
+          "TypeScript",
+          "Component Library",
+          "UI/UX",
+          "Open Source"
         ]
       }
     }
@@ -65,16 +65,16 @@ export const projects: Project[] = [
         short: "A high-performance GraphQL API gateway that unifies multiple microservices into a single endpoint, featuring automatic schema stitching and built-in authentication."
       },
       stats: {
-        weight: "1.5 kg",
-        cost: "50 EUR",
-        "found-component": "Calculator",
-        microcontroller: "Arduino Uno",
+        weight: "4.7 MB",
+        cost: "Enterprise",
+        "found-component": "Apollo Server",
+        microcontroller: "N/A",
         keywords: [
-          "Found Treasures",
-          "Upcycling",
-          "Sustainability",
-          "Innovation",
-          "Kinetic"
+          "GraphQL",
+          "API Gateway",
+          "Microservices",
+          "Performance",
+          "Security"
         ]
       }
     }
@@ -104,16 +104,16 @@ export const projects: Project[] = [
         short: "A secure, scalable chat application featuring end-to-end encryption, group chats, and file sharing capabilities built with modern WebSocket technology."
       },
       stats: {
-        weight: "1.5 kg",
-        cost: "50 EUR",
-        "found-component": "Calculator",
-        microcontroller: "Arduino Uno",
+        weight: "3.8 MB",
+        cost: "Freemium",
+        "found-component": "Socket.io",
+        microcontroller: "N/A",
         keywords: [
-          "Found Treasures",
-          "Upcycling",
-          "Sustainability",
-          "Innovation",
-          "Kinetic"
+          "Real-time Chat",
+          "WebSocket",
+          "Encryption",
+          "Scalability",
+          "Cross-platform"
         ]
       }
     }
