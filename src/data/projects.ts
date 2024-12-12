@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Vue Component Library",
     description: "A comprehensive collection of reusable Vue.js components built with TypeScript",
     gifUrl: "/projects/project1/images/preview.gif",
-    imageUrl: "/projects/project1/images/header.jpg",
+    imageUrl: "/projects/project1/images/preview.gif",
     detailUrl: "/project/1",
     markdownPath: "/projects/project1/readme/README.md",
     pages: [
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     title: "GraphQL API Gateway",
     description: "A high-performance GraphQL API gateway that simplifies microservices integration",
     gifUrl: "/projects/project2/images/preview.gif",
-    imageUrl: "/projects/project2/images/header.jpg",
+    imageUrl: "/projects/project2/images/preview.gif",
     detailUrl: "/project/2",
     markdownPath: "/projects/project2/readme/README.md",
     pages: [
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     title: "Real-time Chat Application",
     description: "A modern real-time chat application built with WebSocket technology",
     gifUrl: "/projects/project3/images/preview.gif",
-    imageUrl: "/projects/project3/images/header.jpg",
+    imageUrl: "/projects/project3/images/preview.gif",
     detailUrl: "/project/3",
     markdownPath: "/projects/project3/readme/README.md",
     pages: [
