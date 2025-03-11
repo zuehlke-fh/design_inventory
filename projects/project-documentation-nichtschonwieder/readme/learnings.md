@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/4?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/4?page=readme)
 
 # Learnings: [Title]
 
@@ -10,4 +10,4 @@ Include the relevant details, images (from the `images` folder), or diagrams her
 
 ---
 
-[⬅ Back to Main Page](/project/4?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/4?page=readme)

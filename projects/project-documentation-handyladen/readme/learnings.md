@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)
 
 # Learnings
 
@@ -13,4 +13,4 @@ In the end, this project was as much about learning how to problem-solve as it w
 
 ---
 
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)

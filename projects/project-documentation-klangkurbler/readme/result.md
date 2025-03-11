@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)
 
 # Result
 
@@ -19,4 +19,4 @@ This setup creates an off-grid, manually powered music player with remote file m
 <img src="/projects/project-documentation-klangkurbler/readme/../images/open.JPEG" alt="Box open" style="max-width: 100%; height: auto; max-height: 500px;" />
 ---
 
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)

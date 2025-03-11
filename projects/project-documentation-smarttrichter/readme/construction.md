@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)
 
 # Construction: Smart Trichter
 
@@ -49,4 +49,4 @@ Finally, we **calibrated the Trichter** by repeatedly pouring small amounts of w
 
 ---
 
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)

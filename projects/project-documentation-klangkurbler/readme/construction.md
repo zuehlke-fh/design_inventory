@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)
 
 # Construction
 
@@ -29,4 +29,4 @@ For the [logic](./sketch.ino) on the ESP, an already existing example patch from
 
 ---
 
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)

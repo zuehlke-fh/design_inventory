@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)
 
 # Learnings
 
@@ -12,4 +12,4 @@ Altogether, we are very pleased with the result.
 
 ---
 
-[⬅ Back to Main Page](/project/3?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/3?page=readme)

@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)
 
 # Construction: [LockQuest]
 
@@ -30,4 +30,4 @@ On the outside there are two hinges to open and close the chest easier and on th
 <img src="/projects/project-documentation-prototyper-1/readme/../images/image9.jpg" alt="Image example" style="max-width: 100%; height: auto; max-height: 500px;" />
 ---
 
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)

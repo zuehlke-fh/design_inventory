@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)
 
 # Result: Smart Trichter
 
@@ -23,4 +23,4 @@ This limitation is inherent to the sensor and not a software issue.
 <img src="/images/Smart%20Trichter.jpg" alt="Smart Trichter Model" style="max-width: 100%; height: auto; max-height: 500px;" />  
 ---
 
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)

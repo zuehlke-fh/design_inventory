@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)
 
 # Result
 
@@ -17,4 +17,4 @@ The final result is a fun trumpet-inspired MIDI controller that lets users play 
 
 ---
 
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)

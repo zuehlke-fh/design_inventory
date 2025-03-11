@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)
 
 # Learnings: Smart Trichter
 
@@ -24,4 +24,4 @@ Throughout the project, we gained valuable insights, especially regarding planni
 
 ---
 
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)

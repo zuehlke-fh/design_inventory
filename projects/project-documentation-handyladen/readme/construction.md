@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)
 
 # Construction
 
@@ -44,4 +44,4 @@ Include the relevant details, images (from the `images` folder), or diagrams her
 <img src="/projects/project-documentation-handyladen/readme/../images/soldering.jpg" alt="Soldered everything" style="max-width: 100%; height: auto; max-height: 500px;" />
 <img src="/projects/project-documentation-handyladen/readme/../images/box.jpg" alt="Put it in a box" style="max-width: 100%; height: auto; max-height: 500px;" />
 
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)

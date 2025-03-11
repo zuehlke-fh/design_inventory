@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)
 
 # Construction: [PlantPal]
 
@@ -33,4 +33,4 @@ Then it was time for the control logic. In VsCode, the humidity value was read o
 
 ---
 
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)

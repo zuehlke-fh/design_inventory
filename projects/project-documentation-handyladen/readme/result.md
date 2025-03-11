@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)
 
 # Results
 
@@ -17,4 +17,4 @@ The prototype is now ready for further development as a bike phone charger, addr
 
 ---
 
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)

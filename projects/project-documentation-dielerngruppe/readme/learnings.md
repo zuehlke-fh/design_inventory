@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)
 
 # Learnings: [Was haben wir gelernt ?]
 Das Projekt war teilweise sehr anspruchsvoll, da wir als Gruppe in einigen Bereichen nur wenig oder gar keine Vorkenntnisse hatten. Gerade deshalb war es umso lehrreicher, eigenständig Lösungen für die auftretenden Probleme zu finden. Wir konnten in mehreren Bereichen wertvolle Erfahrungen sammeln, beispielsweise beim Umgang mit Mikrocontrollern und der Programmierung mit Arduino Sketch. Wir lernten, wie Signale verarbeitet und interpretiert werden können und wie sich Software und Hardware miteinander verbinden lassen, um eine reibungslose Funktionalität zu gewährleisten.
@@ -11,4 +11,4 @@ Insgesamt war das Projekt eine großartige Mischung aus Herausforderungen und Sp
 
 ---
 
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)

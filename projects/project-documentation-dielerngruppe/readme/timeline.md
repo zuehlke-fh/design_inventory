@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)
 
 # Timeline: [Timeline]
 - **21. Oktober 2024**: 
@@ -38,4 +38,4 @@
 
 ---
 
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)

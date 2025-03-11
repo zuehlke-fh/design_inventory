@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)
 
 # Timeline
 
@@ -18,4 +18,4 @@
 
 ---
 
-[⬅ Back to Main Page](/project/2?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/2?page=readme)

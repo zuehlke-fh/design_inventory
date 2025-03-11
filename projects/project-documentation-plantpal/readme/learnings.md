@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)
 
 # Learnings: [PlantPal]
 
@@ -17,4 +17,4 @@ The ESP32 can read the sensors and control the pump and the valve. Using a MOSFE
 
 ---
 
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)

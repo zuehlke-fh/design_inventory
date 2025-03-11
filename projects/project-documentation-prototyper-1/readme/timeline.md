@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)
 
 # Timeline: [LockQuest]
 
@@ -21,4 +21,4 @@
 
 ---
 
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)

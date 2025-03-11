@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)
 
 # Construction
 
@@ -37,4 +37,4 @@ The Teensy was programmed to process input from the buttons, breath sensor, and 
 
 ---
 
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)

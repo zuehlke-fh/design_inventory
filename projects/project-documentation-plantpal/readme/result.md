@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)
 
 # Result: [PlantPal]
 
@@ -15,4 +15,4 @@ Test results: The system proved to be reliable in the tests and ensures that the
 
 ---
 
-[⬅ Back to Main Page](/project/5?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/5?page=readme)

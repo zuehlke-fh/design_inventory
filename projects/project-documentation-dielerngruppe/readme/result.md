@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)
 
 # Result: [Ergebnis]
 
@@ -15,4 +15,4 @@ Die fertige Kanone besteht aus einem 3D-gedruckten Gehäuse, das den Druckluftbe
 
 ---
 
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)

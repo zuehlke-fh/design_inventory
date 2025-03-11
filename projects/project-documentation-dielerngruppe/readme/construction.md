@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)
 
 # Construction: [Konstruktion der Kanone]
 
@@ -87,4 +87,4 @@ Die Kanone funktioniert folgendermaßen:
 
 ---
 
-[⬅ Back to Main Page](/project/1?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/1?page=readme)

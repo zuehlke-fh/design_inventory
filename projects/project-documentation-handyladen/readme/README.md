@@ -7,10 +7,10 @@ Welcome to the project wiki! This is the central hub for all information related
 - [Idea and Inspiration](#idea-and-inspiration)
 - [Resources](#resources) <!--Beide-->
 - [Subsections](#subsections)
-  - [Construction](/project/2?page=construction)
-  - [Timeline](/project/2?page=timeline)
-  - [Learnings](/project/2?page=learnings)
-  - [Result](/project/2?page=result)
+  - [Construction](/design_inventory/project/2?page=construction)
+  - [Timeline](/design_inventory/project/2?page=timeline)
+  - [Learnings](/design_inventory/project/2?page=learnings)
+  - [Result](/design_inventory/project/2?page=result)
 
 ---
 
@@ -41,7 +41,7 @@ However, we deliberately introduced a twist into our design: the cyclist can cho
 
 ## Subsections
 This wiki is divided into the following sections:
-- [Construction](/project/2?page=construction): Detailed construction process. <!--Anna-->
-- [Timeline](/project/2?page=timeline): Key milestones and deadlines. <!--Jakob-->
-- [Learnings](/project/2?page=learnings): Insights gained from the project. <!--Anna-->
-- [Result](/project/2?page=result): Final outcomes and evaluation. <!--Jakob-->
+- [Construction](/design_inventory/project/2?page=construction): Detailed construction process. <!--Anna-->
+- [Timeline](/design_inventory/project/2?page=timeline): Key milestones and deadlines. <!--Jakob-->
+- [Learnings](/design_inventory/project/2?page=learnings): Insights gained from the project. <!--Anna-->
+- [Result](/design_inventory/project/2?page=result): Final outcomes and evaluation. <!--Jakob-->

@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)
 
 # Timeline: Smart Trichter
 
@@ -21,4 +21,4 @@ The project followed a structured timeline, from planning to prototyping and fin
 
 ---
 
-[⬅ Back to Main Page](/project/7?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/7?page=readme)

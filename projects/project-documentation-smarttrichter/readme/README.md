@@ -7,10 +7,10 @@ Welcome to the project wiki! This is the central hub for all information related
 - [Idea and Inspiration](#idea-and-inspiration)
 - [Resources](#resources)
 - [Subsections](#subsections)  
-  - [Construction](/project/7?page=construction)
-  - [Timeline](/project/7?page=timeline)
-  - [Learnings](/project/7?page=learnings)
-  - [Result](/project/7?page=result)
+  - [Construction](/design_inventory/project/7?page=construction)
+  - [Timeline](/design_inventory/project/7?page=timeline)
+  - [Learnings](/design_inventory/project/7?page=learnings)
+  - [Result](/design_inventory/project/7?page=result)
 
 ---
 
@@ -35,7 +35,7 @@ Relevant references and tools that helped during the project:
 
 ## Subsections
 This wiki is divided into the following sections:
-- [Construction](/project/7?page=construction): Detailed construction process.
-- [Timeline](/project/7?page=timeline): Key milestones and deadlines.
-- [Learnings](/project/7?page=learnings): Insights gained from the project.
-- [Result](/project/7?page=result): Final outcomes and evaluation.
+- [Construction](/design_inventory/project/7?page=construction): Detailed construction process.
+- [Timeline](/design_inventory/project/7?page=timeline): Key milestones and deadlines.
+- [Learnings](/design_inventory/project/7?page=learnings): Insights gained from the project.
+- [Result](/design_inventory/project/7?page=result): Final outcomes and evaluation.

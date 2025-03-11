@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)
 
 # Learnings: [LockQuest]
 
@@ -26,4 +26,4 @@ The cooperation between the gyro sensor and the grip tools is now reliable. In a
 
 ---
 
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)

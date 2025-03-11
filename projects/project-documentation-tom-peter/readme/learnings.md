@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)
 
 # Learnings
 ## Working with Teensy 4.0:
@@ -21,4 +21,4 @@ We fixed it by adding an empty read method.
 
 ---
 
-[⬅ Back to Main Page](/project/9?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/9?page=readme)

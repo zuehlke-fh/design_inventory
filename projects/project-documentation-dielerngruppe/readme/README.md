@@ -7,10 +7,10 @@ Willkommen im Projekt-Wiki! Dies ist der zentrale Anlaufpunkt für alle Informat
 - [Idea and Inspiration](#idea-and-inspiration)
 - [Resources](#resources)
 - [Subsections](#subsections)
-  - [Construction](/project/1?page=construction)
-  - [Timeline](/project/1?page=timeline)
-  - [Learnings](/project/1?page=learnings)
-  - [Result](/project/1?page=result)
+  - [Construction](/design_inventory/project/1?page=construction)
+  - [Timeline](/design_inventory/project/1?page=timeline)
+  - [Learnings](/design_inventory/project/1?page=learnings)
+  - [Result](/design_inventory/project/1?page=result)
 
 ---
 
@@ -32,7 +32,7 @@ Zu unserem Glück erhielt Familie Scherleithner (Thomas’ Familie) kürzlich ei
 
 ## Subsections
 Diese Wiki ist in die folgenden Abschnitte unterteilt:
-- [Construction](/project/1?page=construction): Detaillierter Bauprozess.
-- [Timeline](/project/1?page=timeline):  Wichtige Meilensteine und Fristen.
-- [Learnings](/project/1?page=learnings): Einsichten, die aus dem Projekt gewonnen wurden.
-- [Result](/project/1?page=result): Endergebnisse und Bewertung.
+- [Construction](/design_inventory/project/1?page=construction): Detaillierter Bauprozess.
+- [Timeline](/design_inventory/project/1?page=timeline):  Wichtige Meilensteine und Fristen.
+- [Learnings](/design_inventory/project/1?page=learnings): Einsichten, die aus dem Projekt gewonnen wurden.
+- [Result](/design_inventory/project/1?page=result): Endergebnisse und Bewertung.

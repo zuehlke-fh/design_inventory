@@ -1,4 +1,4 @@
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)
 
 # Result: [LockQuest]
 
@@ -10,4 +10,4 @@ We are proud of the current status of the project and look forward to presenting
 
 ---
 
-[⬅ Back to Main Page](/project/6?page=readme)
+[⬅ Back to Main Page](/design_inventory/project/6?page=readme)
