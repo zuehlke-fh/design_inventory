@@ -1,0 +1,19 @@
+{
+    "description": {
+      "short": "Human Foundtreasures is a..."
+    },
+    "stats": {
+      "weight": "1.5 kg",
+      "cost": "50 EUR",
+      "found-component": "Calculator",
+      "microcontroller": "Arduino Uno",
+      "keywords": [
+        "Found Treasures",
+        "DIY",
+        "Human-power",
+        "Playfulness",
+        "Creativity",
+        "Interaction",  
+    ]
+    }
+  }

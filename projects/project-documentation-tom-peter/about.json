@@ -1,0 +1,19 @@
+{
+    "description": {
+      "short": "A MIDI controller with greater expression than traditional key-based ones, inspired by the shape of a trumpet."
+    },
+    "stats": {
+      "weight": "1.5 kg",
+      "cost": "50 EUR",
+      "found-component": "Calculator",
+      "microcontroller": "Teensy 4.0",
+      "keywords": [
+        "Found Treasures",
+        "Human-power",
+        "Interaction",
+        "Impracticality",
+        "Challenge",
+        "Experimental"
+    ]
+    }
+  }

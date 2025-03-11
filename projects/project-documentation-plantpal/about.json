@@ -1,0 +1,19 @@
+{
+    "description": {
+      "short": "The project „PlantPal “ aims to create an intelligent, automated plant irrigation system to develop that is suitable for use in households as well as in urban horticultural projects such as vertical farming. The system continuously monitors the moisture content of the soil of the plants using sensors. Based on the recorded data of the individual sensors, „PlantPal “ controls the irrigation of the plants efficiently and as required"
+    },
+    "stats": {
+      "weight": "1.5 kg",
+      "cost": "65 EUR",
+      "found-component": "Generator",
+      "microcontroller": "Esp32 Feather",
+      "keywords": [
+        "Found Treasures",
+        "Sustainability",
+        "Innovation",
+        "Engineering",
+        "Eco-friendly",
+        "Functionality"
+    ]
+    }
+  }
