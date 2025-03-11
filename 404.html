@@ -5,7 +5,7 @@
   <title>Redirecting...</title>
   <script>
     // Single Page Apps for GitHub Pages
-    // https://github.com/rafgraph/spa-github-pages
+    // MIT License - https://github.com/rafgraph/spa-github-pages
     (function(l) {
       if (l.search[1] === '/' ) {
         var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -15,7 +15,14 @@
             l.pathname.slice(0, -1) + decoded + l.hash
         );
       }
-    }(window.location))
+      
+      // Handle double base URL
+      var path = l.pathname;
+      if (path.indexOf('/design_inventory/design_inventory/') !== -1) {
+        path = path.replace('/design_inventory/design_inventory/', '/design_inventory/');
+        window.location.href = l.origin + path + l.search + l.hash;
+      }
+    }(window.location));
   </script>
   <meta http-equiv="refresh" content="0;URL='/design_inventory/'">
 </head>
