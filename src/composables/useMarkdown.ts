@@ -13,7 +13,7 @@ export function useMarkdown(path: Ref<string>) {
   const title = ref('');
   const isLoading = ref(false);
   const error = ref<Error | null>(null);
-  const baseUrl = '/design_inventory';
+  const baseUrl = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 
   async function loadMarkdown() {
     if (!path.value) return;

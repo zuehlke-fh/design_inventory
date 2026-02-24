@@ -3,7 +3,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useProjects } from '../composables/useProjects';
 import { useMarkdown } from '../composables/useMarkdown';
-import type { ProjectPage } from '../types';
+import type { ProjectPage } from '../types/project';
 
 const route = useRoute();
 const { projects } = useProjects();

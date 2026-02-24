@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import ProjectTile from './ProjectTile.vue';
 import ProjectModal from './ProjectModal.vue';
 import { useProjects } from '../composables/useProjects';
-import type { Project } from '../types';
+import type { Project } from '../types/project';
 
 const selectedProject = ref<Project | null>(null);
 const { projects } = useProjects();

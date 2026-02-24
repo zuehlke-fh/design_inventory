@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue';
-import type { Project } from '../types';
+import type { Project } from '../types/project';
 
 const props = defineProps<{
   project: Project;

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ProjectGrid from './components/ProjectGrid.vue'
 </script>
 
 <template>

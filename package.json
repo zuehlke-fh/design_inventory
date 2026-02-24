@@ -7,7 +7,8 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-projects": "node scripts/generate-projects.js"
   },
   "dependencies": {
     "marked": "^12.0.0",
