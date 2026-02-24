@@ -7,10 +7,10 @@ export function markdownServer(): Plugin {
     name: 'markdown-server',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (req.url?.startsWith('/projects/') && req.url.endsWith('.md')) {
+        if (req.url?.startsWith('/design_inventory/projects/') && req.url.includes('.md')) {
           try {
-            // Remove any query parameters
-            const cleanUrl = req.url.split('?')[0];
+            // Remove any query parameters and base URL prefix
+            const cleanUrl = req.url.split('?')[0].replace(/^\/design_inventory/, '');
             
             // Join with the public directory to get the absolute path
             const filePath = join(process.cwd(), 'public', cleanUrl);

@@ -7,33 +7,33 @@ export const projects: Project[] = [
     "description": "Human Foundtreasures is a...",
     "gifUrl": "/design_inventory/projects/project-documentation-dielerngruppe/images/Alle Kanonen aufgereiht.jpg",
     "imageUrl": "/design_inventory/projects/project-documentation-dielerngruppe/images/Alle Kanonen aufgereiht.jpg",
-    "detailUrl": "/design_inventory/project/1",
-    "markdownPath": "/design_inventory/projects/project-documentation-dielerngruppe/readme/README.md",
+    "detailUrl": "/project/1",
+    "markdownPath": "/projects/project-documentation-dielerngruppe/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-dielerngruppe/readme/README.md"
+        "path": "/projects/project-documentation-dielerngruppe/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-dielerngruppe/readme/construction.md"
+        "path": "/projects/project-documentation-dielerngruppe/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-dielerngruppe/readme/learnings.md"
+        "path": "/projects/project-documentation-dielerngruppe/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-dielerngruppe/readme/result.md"
+        "path": "/projects/project-documentation-dielerngruppe/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-dielerngruppe/readme/timeline.md"
+        "path": "/projects/project-documentation-dielerngruppe/readme/timeline.md"
       }
     ],
     "about": {
@@ -62,33 +62,33 @@ export const projects: Project[] = [
     "description": "Human Foundtreasures is a...",
     "gifUrl": "/design_inventory/projects/project-documentation-handyladen/images/box.jpg",
     "imageUrl": "/design_inventory/projects/project-documentation-handyladen/images/box.jpg",
-    "detailUrl": "/design_inventory/project/2",
-    "markdownPath": "/design_inventory/projects/project-documentation-handyladen/readme/README.md",
+    "detailUrl": "/project/2",
+    "markdownPath": "/projects/project-documentation-handyladen/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-handyladen/readme/README.md"
+        "path": "/projects/project-documentation-handyladen/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-handyladen/readme/construction.md"
+        "path": "/projects/project-documentation-handyladen/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-handyladen/readme/learnings.md"
+        "path": "/projects/project-documentation-handyladen/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-handyladen/readme/result.md"
+        "path": "/projects/project-documentation-handyladen/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-handyladen/readme/timeline.md"
+        "path": "/projects/project-documentation-handyladen/readme/timeline.md"
       }
     ],
     "about": {
@@ -157,33 +157,33 @@ export const projects: Project[] = [
     "description": "Klangkurbel is a digital hurdy-gurdy. Turn its crank to play mp3 files.",
     "gifUrl": "/design_inventory/projects/project-documentation-klangkurbler/images/closeUp.JPEG",
     "imageUrl": "/design_inventory/projects/project-documentation-klangkurbler/images/closeUp.JPEG",
-    "detailUrl": "/design_inventory/project/3",
-    "markdownPath": "/design_inventory/projects/project-documentation-klangkurbler/readme/README.md",
+    "detailUrl": "/project/3",
+    "markdownPath": "/projects/project-documentation-klangkurbler/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-klangkurbler/readme/README.md"
+        "path": "/projects/project-documentation-klangkurbler/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-klangkurbler/readme/construction.md"
+        "path": "/projects/project-documentation-klangkurbler/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-klangkurbler/readme/learnings.md"
+        "path": "/projects/project-documentation-klangkurbler/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-klangkurbler/readme/result.md"
+        "path": "/projects/project-documentation-klangkurbler/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-klangkurbler/readme/timeline.md"
+        "path": "/projects/project-documentation-klangkurbler/readme/timeline.md"
       }
     ],
     "about": {
@@ -211,33 +211,33 @@ export const projects: Project[] = [
     "description": "Human Foundtreasures is a...",
     "gifUrl": "/design_inventory/projects/project-documentation-nichtschonwieder/images/20250129_120350.jpg",
     "imageUrl": "/design_inventory/projects/project-documentation-nichtschonwieder/images/20250129_120350.jpg",
-    "detailUrl": "/design_inventory/project/4",
-    "markdownPath": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/README.md",
+    "detailUrl": "/project/4",
+    "markdownPath": "/projects/project-documentation-nichtschonwieder/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/README.md"
+        "path": "/projects/project-documentation-nichtschonwieder/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/construction.md"
+        "path": "/projects/project-documentation-nichtschonwieder/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/learnings.md"
+        "path": "/projects/project-documentation-nichtschonwieder/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/result.md"
+        "path": "/projects/project-documentation-nichtschonwieder/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-nichtschonwieder/readme/timeline.md"
+        "path": "/projects/project-documentation-nichtschonwieder/readme/timeline.md"
       }
     ],
     "about": {
@@ -306,33 +306,33 @@ export const projects: Project[] = [
     "description": "The project „PlantPal “ aims to create an intelligent, automated plant irrigation system to develop ...",
     "gifUrl": "/design_inventory/projects/project-documentation-plantpal/images/3d_pic.png",
     "imageUrl": "/design_inventory/projects/project-documentation-plantpal/images/3d_pic.png",
-    "detailUrl": "/design_inventory/project/5",
-    "markdownPath": "/design_inventory/projects/project-documentation-plantpal/readme/README.md",
+    "detailUrl": "/project/5",
+    "markdownPath": "/projects/project-documentation-plantpal/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-plantpal/readme/README.md"
+        "path": "/projects/project-documentation-plantpal/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-plantpal/readme/construction.md"
+        "path": "/projects/project-documentation-plantpal/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-plantpal/readme/learnings.md"
+        "path": "/projects/project-documentation-plantpal/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-plantpal/readme/result.md"
+        "path": "/projects/project-documentation-plantpal/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-plantpal/readme/timeline.md"
+        "path": "/projects/project-documentation-plantpal/readme/timeline.md"
       }
     ],
     "about": {
@@ -361,33 +361,33 @@ export const projects: Project[] = [
     "description": "LockQuest is a physical game, which utilizes a gyro sensor and grip tools to open a box.",
     "gifUrl": "/design_inventory/projects/project-documentation-prototyper-1/images/image1.jpg",
     "imageUrl": "/design_inventory/projects/project-documentation-prototyper-1/images/image1.jpg",
-    "detailUrl": "/design_inventory/project/6",
-    "markdownPath": "/design_inventory/projects/project-documentation-prototyper-1/readme/README.md",
+    "detailUrl": "/project/6",
+    "markdownPath": "/projects/project-documentation-prototyper-1/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-prototyper-1/readme/README.md"
+        "path": "/projects/project-documentation-prototyper-1/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-prototyper-1/readme/construction.md"
+        "path": "/projects/project-documentation-prototyper-1/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-prototyper-1/readme/learnings.md"
+        "path": "/projects/project-documentation-prototyper-1/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-prototyper-1/readme/result.md"
+        "path": "/projects/project-documentation-prototyper-1/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-prototyper-1/readme/timeline.md"
+        "path": "/projects/project-documentation-prototyper-1/readme/timeline.md"
       }
     ],
     "about": {
@@ -416,33 +416,33 @@ export const projects: Project[] = [
     "description": "Human Foundtreasures is a...",
     "gifUrl": "/design_inventory/projects/project-documentation-smarttrichter/images/3D_Druck.gif",
     "imageUrl": "/design_inventory/projects/project-documentation-smarttrichter/images/3D_Druck.gif",
-    "detailUrl": "/design_inventory/project/7",
-    "markdownPath": "/design_inventory/projects/project-documentation-smarttrichter/readme/README.md",
+    "detailUrl": "/project/7",
+    "markdownPath": "/projects/project-documentation-smarttrichter/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-smarttrichter/readme/README.md"
+        "path": "/projects/project-documentation-smarttrichter/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-smarttrichter/readme/construction.md"
+        "path": "/projects/project-documentation-smarttrichter/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-smarttrichter/readme/learnings.md"
+        "path": "/projects/project-documentation-smarttrichter/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-smarttrichter/readme/result.md"
+        "path": "/projects/project-documentation-smarttrichter/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-smarttrichter/readme/timeline.md"
+        "path": "/projects/project-documentation-smarttrichter/readme/timeline.md"
       }
     ],
     "about": {
@@ -511,33 +511,33 @@ export const projects: Project[] = [
     "description": "A MIDI controller with greater expression than traditional key-based ones, inspired by the shape of ...",
     "gifUrl": "/design_inventory/projects/project-documentation-tom-peter/images/code.png",
     "imageUrl": "/design_inventory/projects/project-documentation-tom-peter/images/code.png",
-    "detailUrl": "/design_inventory/project/9",
-    "markdownPath": "/design_inventory/projects/project-documentation-tom-peter/readme/README.md",
+    "detailUrl": "/project/9",
+    "markdownPath": "/projects/project-documentation-tom-peter/readme/README.md",
     "pages": [
       {
         "id": "overview",
         "title": "Overview",
-        "path": "/design_inventory/projects/project-documentation-tom-peter/readme/README.md"
+        "path": "/projects/project-documentation-tom-peter/readme/README.md"
       },
       {
         "id": "construction",
         "title": "Construction",
-        "path": "/design_inventory/projects/project-documentation-tom-peter/readme/construction.md"
+        "path": "/projects/project-documentation-tom-peter/readme/construction.md"
       },
       {
         "id": "learnings",
         "title": "Learnings",
-        "path": "/design_inventory/projects/project-documentation-tom-peter/readme/learnings.md"
+        "path": "/projects/project-documentation-tom-peter/readme/learnings.md"
       },
       {
         "id": "result",
         "title": "Result",
-        "path": "/design_inventory/projects/project-documentation-tom-peter/readme/result.md"
+        "path": "/projects/project-documentation-tom-peter/readme/result.md"
       },
       {
         "id": "timeline",
         "title": "Timeline",
-        "path": "/design_inventory/projects/project-documentation-tom-peter/readme/timeline.md"
+        "path": "/projects/project-documentation-tom-peter/readme/timeline.md"
       }
     ],
     "about": {

@@ -1,25 +1,39 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { computed, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import { useProjects } from '../composables/useProjects';
 import { useMarkdown } from '../composables/useMarkdown';
 import HomeButton from '../components/HomeButton.vue';
 import Sidebar from '../components/Sidebar.vue';
 
+const props = defineProps<{
+  id: number;
+  page: string;
+}>();
+
 const route = useRoute();
+const router = useRouter();
 const { projects } = useProjects();
 
 const project = computed(() => {
-  const id = parseInt(route.params.id as string, 10);
-  return projects.value.find(p => p.id === id);
+  return projects.value.find(p => p.id === props.id);
 });
 
 const currentPage = computed(() => {
-  const pageId = route.query.page as string || 'overview';
-  return project.value?.pages.find(p => p.id === pageId);
+  return project.value?.pages.find(p => p.id === props.page);
 });
 
-const { content, isLoading, error } = useMarkdown(computed(() => currentPage.value?.path || ''));
+const { content, isLoading, error, reload } = useMarkdown(computed(() => currentPage.value?.path || ''));
+
+// Watch for route changes to reload content
+watch(
+  () => route.fullPath,
+  () => {
+    if (currentPage.value?.path) {
+      reload();
+    }
+  }
+);
 </script>
 
 <template>
@@ -33,7 +47,14 @@ const { content, isLoading, error } = useMarkdown(computed(() => currentPage.val
           <div v-else-if="error" class="error">
             Failed to load content: {{ error.message }}
           </div>
-          <div v-else v-html="content" class="markdown-body"></div>
+          <div v-else-if="content" v-html="content" class="markdown-body"></div>
+          <div v-else class="not-found">
+            <h1>Content Not Found</h1>
+            <p>The requested page could not be found.</p>
+            <router-link :to="{ name: 'project-detail', params: { id: project.id } }">
+              Return to Project Overview
+            </router-link>
+          </div>
         </div>
         <div v-else class="not-found">
           <h1>Project Not Found</h1>

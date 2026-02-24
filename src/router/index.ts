@@ -14,7 +14,23 @@ const router = createRouter({
       path: '/project/:id',
       name: 'project-detail',
       component: ProjectDetailView,
-      props: true
+      props: route => ({
+        id: parseInt(route.params.id as string),
+        page: route.query.page || 'overview'
+      })
+    },
+    // Handle double base URL
+    {
+      path: '/design_inventory/project/:id',
+      redirect: to => ({
+        path: `/project/${to.params.id}`,
+        query: to.query
+      })
+    },
+    {
+      // Catch-all route for GitHub Pages 404 handling
+      path: '/:pathMatch(.*)*',
+      redirect: '/'
     }
   ]
 });

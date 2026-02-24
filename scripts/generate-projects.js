@@ -51,75 +51,60 @@ function fixMarkdownImagePaths(projectDir) {
       let content = fs.readFileSync(filePath, 'utf8');
       
       // Fix relative image paths
-      // This regex matches markdown image syntax: ![alt text](image-path)
-      const imageRegex = /!\[(.*?)\]\(((?!https?:\/\/|\/)[^)]+)\)/g;
+      content = content.replace(
+        /!\[(.*?)\]\(((?!https?:\/\/|\/)[^)]+)\)/g,
+        (match, alt, imgPath) => {
+          if (imgPath.startsWith('../')) {
+            // Handle relative paths that go up directories
+            const cleanPath = imgPath.replace(/^\.\.\/+/, '');
+            return `<img src="${baseUrl}/projects/${projectDir}/${cleanPath}" alt="${alt}" style="max-width: 100%; height: auto; max-height: 500px;" />`;
+          }
+          // Convert relative path to absolute path
+          const absolutePath = `${baseUrl}/projects/${projectDir}/readme/${imgPath}`;
+          return `<img src="${absolutePath}" alt="${alt}" style="max-width: 100%; height: auto; max-height: 500px;" />`;
+        }
+      );
       
-      // Replace relative paths with absolute paths and convert to HTML img tags with styling
-      content = content.replace(imageRegex, (match, alt, imgPath) => {
-        // If path already starts with / or http, use that path
-        if (imgPath.startsWith('/') || imgPath.startsWith('http')) {
+      // Fix absolute image paths
+      content = content.replace(
+        /!\[(.*?)\]\((\/[^)]+)\)/g,
+        (match, alt, imgPath) => {
           return `<img src="${baseUrl}${imgPath}" alt="${alt}" style="max-width: 100%; height: auto; max-height: 500px;" />`;
         }
-        
-        // Convert relative path to absolute path
-        const absolutePath = `${baseUrl}/projects/${projectDir}/readme/${imgPath}`;
-        return `<img src="${absolutePath}" alt="${alt}" style="max-width: 100%; height: auto; max-height: 500px;" />`;
-      });
+      );
       
-      // Also fix any existing absolute paths
-      const absoluteImageRegex = /!\[(.*?)\]\((\/[^)]+)\)/g;
-      content = content.replace(absoluteImageRegex, (match, alt, imgPath) => {
-        return `<img src="${baseUrl}${imgPath}" alt="${alt}" style="max-width: 100%; height: auto; max-height: 500px;" />`;
+      // Fix navigation links
+      const navigationLinkRegex = /\[([^\]]+)\]\(\/project\/(\d+)\?page=([^)]+)\)/g;
+      content = content.replace(navigationLinkRegex, (match, text, projectId, page) => {
+        return `[${text}](${baseUrl}/project/${projectId}?page=${page})`;
       });
       
       // Fix markdown links to other markdown files
-      // This regex matches markdown link syntax: [link text](file.md) but not [link text](http://...)
-      const markdownLinkRegex = /\[(.*?)\]\(((?!https?:\/\/|\/)[^)]+\.md(?:#[^)]*)?)\)/g;
-      
-      content = content.replace(markdownLinkRegex, (match, text, mdPath) => {
-        // Extract anchor if present
-        let anchor = '';
-        let cleanPath = mdPath;
-        
-        if (mdPath.includes('#')) {
-          const parts = mdPath.split('#');
-          cleanPath = parts[0];
-          anchor = '#' + parts[1];
+      content = content.replace(
+        /\[(.*?)\]\(((?!https?:\/\/|\/)[^)]+\.md)(?:#[^)]*)?\)/g,
+        (match, text, mdPath) => {
+          // Extract anchor if present
+          let anchor = '';
+          let cleanPath = mdPath;
+          
+          if (mdPath.includes('#')) {
+            const parts = mdPath.split('#');
+            cleanPath = parts[0];
+            anchor = '#' + parts[1];
+          }
+          
+          // Get the page ID from the filename
+          const fileName = path.basename(cleanPath, '.md');
+          const pageId = fileName.toLowerCase() === 'readme' ? 'overview' : fileName.toLowerCase();
+          
+          // Get the project ID from the directory name
+          const projectId = projectDir.startsWith(projectPrefix) 
+            ? projectDir.substring(projectPrefix.length) 
+            : projectDir;
+          
+          return `[${text}](${baseUrl}/project/PROJECTID?page=${pageId}${anchor})`;
         }
-        
-        // Convert to router-link format for Vue
-        // For example: [Construction](construction.md) -> [Construction](/project/1?page=construction)
-        
-        // Get the page ID from the filename
-        const fileName = path.basename(cleanPath, '.md');
-        const pageId = fileName.toLowerCase();
-        
-        // Get the project ID from the directory name
-        const projectId = projectDir.startsWith(projectPrefix) 
-          ? projectDir.substring(projectPrefix.length) 
-          : projectDir;
-        
-        // Find the numeric ID from the projects.ts file (will be based on index)
-        // Since we don't have access to the final ID yet, we'll use a placeholder
-        // that we'll replace in a second pass
-        return `[${text}](/project/PROJECTID?page=${pageId}${anchor})`;
-      });
-      
-      // Fix absolute markdown links (starting with /)
-      const absoluteMarkdownLinkRegex = /\[(.*?)\]\((\/[^)]+\.md(?:#[^)]*)?)\)/g;
-      
-      content = content.replace(absoluteMarkdownLinkRegex, (match, text, mdPath) => {
-        // Extract the filename and anchor if present
-        const fileName = path.basename(mdPath.split('#')[0], '.md');
-        const pageId = fileName.toLowerCase();
-        let anchor = '';
-        
-        if (mdPath.includes('#')) {
-          anchor = '#' + mdPath.split('#')[1];
-        }
-        
-        return `[${text}](/project/PROJECTID?page=${pageId}${anchor})`;
-      });
+      );
       
       // Write the updated content back to the file
       fs.writeFileSync(filePath, content);
@@ -174,7 +159,7 @@ function generatePages(projectPath, markdownFiles) {
     pages.push({
       id,
       title,
-      path: `${relativePath}/readme/${file}`
+      path: `/projects/${path.basename(projectPath)}/readme/${file}`
     });
   });
   
@@ -223,11 +208,11 @@ function generateProject(projectDir, id) {
       description: description.substring(0, 100) + (description.length > 100 ? '...' : ''),
       gifUrl: imageUrl,
       imageUrl: imageUrl,
-      detailUrl: `${baseUrl}/project/${id}`,
-      markdownPath: pages.length > 0 ? `${baseUrl}${pages[0].path}` : '',
+      detailUrl: `/project/${id}`,
+      markdownPath: pages.length > 0 ? pages[0].path : '',
       pages: pages.map(page => ({
         ...page,
-        path: `${baseUrl}${page.path}`
+        path: page.path
       })),
       about: aboutData
     };
@@ -257,7 +242,7 @@ function updateProjectIdsInMarkdownLinks(projectDirs) {
       let content = fs.readFileSync(filePath, 'utf8');
       
       // Replace the PROJECTID placeholder with the actual project ID
-      content = content.replace(/\/project\/PROJECTID/g, `${baseUrl}/project/${projectIdMap[projectDir]}`);
+      content = content.replace(/\/project\/PROJECTID/g, `/project/${projectIdMap[projectDir]}`);
       
       // Write the updated content back to the file
       fs.writeFileSync(filePath, content);

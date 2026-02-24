@@ -13,6 +13,7 @@ export function useMarkdown(path: Ref<string>) {
   const title = ref('');
   const isLoading = ref(false);
   const error = ref<Error | null>(null);
+  const baseUrl = '/design_inventory';
 
   async function loadMarkdown() {
     if (!path.value) return;
@@ -23,7 +24,9 @@ export function useMarkdown(path: Ref<string>) {
     title.value = '';
     
     try {
-      const response = await fetch(path.value);
+      // Add base URL prefix if not present
+      const fullPath = path.value.startsWith(baseUrl) ? path.value : `${baseUrl}${path.value}`;
+      const response = await fetch(fullPath);
       if (!response.ok) throw new Error(`Failed to load markdown content: ${response.statusText}`);
       const text = await response.text();
       
@@ -31,8 +34,6 @@ export function useMarkdown(path: Ref<string>) {
       marked.setOptions({
         gfm: true,
         breaks: true,
-        //headerIds: true,
-        //mangle: false
       });
       
       // Extract headings before rendering
@@ -58,14 +59,25 @@ export function useMarkdown(path: Ref<string>) {
         title.value = titleHeading.text;
       }
       
-      // Modify the renderer to add IDs to headings
+      // Modify the renderer to add IDs to headings and handle image paths
       const renderer = new marked.Renderer();
-      const originalHeadingRenderer = renderer.heading.bind(renderer);
       
+      // Handle headings
+      const originalHeadingRenderer = renderer.heading.bind(renderer);
       renderer.heading = (text, level, raw) => {
         const id = text.toLowerCase().replace(/[^\w]+/g, '-');
         return originalHeadingRenderer(text, level, raw)
           .replace(/^<h(\d)>/, `<h$1 id="${id}">`);
+      };
+
+      // Handle images
+      const originalImageRenderer = renderer.image.bind(renderer);
+      renderer.image = (href, title, text) => {
+        // Add base URL prefix to relative paths
+        if (href && !href.startsWith('http') && !href.startsWith(baseUrl)) {
+          href = href.startsWith('/') ? `${baseUrl}${href}` : `${baseUrl}/${href}`;
+        }
+        return originalImageRenderer(href, title, text);
       };
       
       // Render the markdown content
